@@ -1,0 +1,204 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenedor-header{
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0; 
+  z-index: 1000;
+}
+
+.contenedor-hijo-header {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.linkConctacto{
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  padding: 0px 20px  ;
+}
+
+.contenedor-img3D {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.textTituloname{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.img-d {
+  width: 500px;
+  height: 300px;
+}
+.contendor-infop {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+
+ul {
+  list-style: none;
+}
+
+.contenedorInfop {
+  width: 300px;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.contenedor-aplicaciones {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 20px;
+}
+.contenedor-aplicaciones2 {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 20px;
+}
+
+.contenedorSobremi {
+  width: 100%;
+  height: 200px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px 30px;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.textSobremi{
+  font-weight: bold;
+}
+h3{
+  font-weight: bold;
+  font-size: 28px;
+}
+
+
+
+.Fondo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  height: 100px;
+  position: relative;
+  top: 20px;
+}	
+
+.contenedorHitoriademi{
+  width: 100%;
+  height: 150PX;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedorHistoriaMichael{
+  width: 35%;
+}
+
+.img1 {
+  background-image: url(../img/Calculadora\ Prestamo.PNG);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.img2 {
+  background-image: url(../img/ipgeo.PNG);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.img3 {
+  background-image: url(../img/DigiApi.PNG);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.img4 {
+  background-image: url(../img/apidrago.PNG);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.img5 {
+  background-image: url(../img/ipfonumero.PNG);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.img6 {
+  background-image: url(../img/rickmortin.PNG);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.contenedor-header:active{
+  position: sticky;
+  top: 0; 
+  z-index: 1000;
+  background-color: rgba(255, 9, 9, 0.253);
+}
+
+button{
+  padding: 5px 15px;
+}
+
+.linkConctacto:hover{
+   text-decoration: underline;
+}
+
+a{
+  transition: 1s;
+}
+.listaApp:hover{
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+.dark{
+  background-color: black;
+  color: white;
+}
+
+.scrolled{
+  background-color: rgba(20, 195, 207, 0.637);
+  opacity: 5;
+}
