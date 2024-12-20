@@ -5,13 +5,13 @@ body {
   box-sizing: border-box;
 }
 
-.contenedor-header{
+.contenedor-header {
   width: 100%;
   height: 100px;
   display: flex;
   justify-content: center;
   position: sticky;
-  top: 0; 
+  top: 0;
   z-index: 1000;
 }
 
@@ -20,10 +20,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
-.linkConctacto{
+.linkConctacto {
   font-weight: bold;
   font-size: 18px;
   text-decoration: none;
@@ -38,7 +37,7 @@ body {
   align-items: center;
 }
 
-.textTituloname{
+.textTituloname {
   font-size: 18px;
   font-weight: bold;
 }
@@ -48,14 +47,12 @@ body {
   height: 300px;
 }
 
-
 .contendor-infop {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
- 
 }
 
 ul {
@@ -74,6 +71,7 @@ ul {
   flex-wrap: wrap;
   gap: 20px 20px;
 }
+
 .contenedor-aplicaciones2 {
   width: 50%;
   display: flex;
@@ -84,7 +82,6 @@ ul {
 .contenedorSobremi {
   width: 100%;
   height: 200px;
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,15 +95,14 @@ img {
   background-position: center center;
 }
 
-.textSobremi{
+.textSobremi {
   font-weight: bold;
 }
-h3{
+
+h3 {
   font-weight: bold;
   font-size: 28px;
 }
-
-
 
 .Fondo {
   display: flex;
@@ -117,114 +113,100 @@ h3{
   position: relative;
   top: 20px;
   border-top: solid #f2f2f2;
-}	
+}
 
-.contenedorHitoriademi{
+.contenedorHitoriademi {
   width: 100%;
   height: 150PX;
   display: flex;
   justify-content: center;
 }
 
-.contenedorHistoriaMichael{
+.contenedorHistoriaMichael {
   width: 35%;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6 {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .img1 {
   background-image: url(../img/Calculadora\ Prestamo.PNG);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
 }
 
 .img2 {
   background-image: url(../img/ipgeo.PNG);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
 }
 
 .img3 {
   background-image: url(../img/DigiApi.PNG);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
 }
 
 .img4 {
   background-image: url(../img/apidrago.PNG);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
 }
 
 .img5 {
   background-image: url(../img/ipfonumero.PNG);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
 }
 
 .img6 {
   background-image: url(../img/rickmortin.PNG);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
 }
 
-.contenedor-header:active{
+.contenedor-header:active {
   position: sticky;
-  top: 0; 
+  top: 0;
   z-index: 1000;
 }
 
-button{
+button {
   padding: 5px 15px;
 }
 
-.listaApp{
+.listaApp {
   transition: 1s;
 }
 
-.listaApp:hover{
+.listaApp:hover {
   transition: 1s;
   transform: scale(1.1);
 }
 
-.linkConctacto:hover{
-  text-decoration: underline ;
+.linkConctacto:hover {
+  text-decoration: underline;
   cursor: pointer;
 }
 
-.dark{
- background-color: black;
- color: white;
- 
+.dark {
+  background-color: black;
+  color: white;
 }
 
-.linkCOn{
-  color: white; 
+.linkCOn {
+  color: white;
 }
 
-.scrolled{
+.scrolled {
   backdrop-filter: blur(10px);
   background-color: #20202380;
 }
 
-
-.modal{
+.modal {
   display: none;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgb(0,0 ,0, 0.5);
+  background-color: rgb(0, 0, 0, 0.5);
   justify-content: center;
   align-items: center;
 }
 
-.contenedorModal{
+.contenedorModal {
   background-color: white;
   padding: 20px;
   border-radius: 5px;
@@ -236,20 +218,19 @@ button{
   flex-direction: column;
   gap: 20px;
   color: black;
-  
 }
 
-.contenedorTituloModal{
-border-bottom: solid 1px black;
+.contenedorTituloModal {
+  border-bottom: solid 1px black;
 }
 
-.FormularioText{
+.FormularioText {
   font-weight: bold;
   font-size: 20px;
   padding: 0px 30px;
 }
 
-.cerrar{
+.cerrar {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -260,18 +241,18 @@ border-bottom: solid 1px black;
   transition: all 0.3s ease;
 }
 
-label{
+label {
   font-weight: bold;
   font-size: 20px;
 }
 
-input{
-  padding: 5px ;
+input {
+  padding: 5px;
   height: 20px;
   font-size: 18px;
 }
 
-.BntEnviarMensaje{
+.BntEnviarMensaje {
   padding: 10px 20px;
   background-color: #f2f2f2;
   border: none;
@@ -281,67 +262,117 @@ input{
   cursor: pointer;
 }
 
-.BntEnviarMensaje:hover{
-  background-color: rgb(46, 204, 113) ;
-  color: white;
-}
-.BntEnviarMensaje:active{
-  background-color: rgb(40, 180, 99 ) ;
+.BntEnviarMensaje:hover {
+  background-color: rgb(46, 204, 113);
   color: white;
 }
 
-.bordeColorRed{
-  border: solid 1px red;
-  background-color: rgba(241, 148, 138, 0.486) ;
+.BntEnviarMensaje:active {
+  background-color: rgb(40, 180, 99);
+  color: white;
 }
-.cerrar:hover{
+
+.bordeColorRed {
+  border: solid 1px red;
+  background-color: rgba(241, 148, 138, 0.486);
+}
+
+.cerrar:hover {
   transform: scale(1.2);
 }
 
-
-
-.contenrdorInfopParaContacto{
+.contenrdorInfopParaContacto {
   width: 100%;
   height: 150px;
   margin-top: 20px;
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 }
 
-.contenrdorInfopParaContacto-hijo{
+.contenrdorInfopParaContacto-hijo {
   width: 50%;
   height: 150px;
- 
 }
 
-.contenrdorInfopParaContacto-hijo{
+.contenrdorInfopParaContacto-hijo {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px  40px;
+  padding: 0px 40px;
 }
 
-.contenedorRedeSociales{
+.contenedorRedeSociales {
   display: flex;
   gap: 50px;
   font-size: 45px;
 }
 
-i{
+i {
   transition: 1s;
   color: black;
 }
 
-.redes:hover{
+.redes:hover {
   transition: 1s;
   transform: scale(1.2);
 }
 
-.redesInfop{
-  color:white;
+.redesInfop {
+  color: white;
 }
 
-.cerrecolor{
+.cerrecolor {
   color: red;
+}
+
+/* Media queries para dispositivos móviles */
+@media (max-width: 768px) {
+  .contenedor-hijo-header {
+    width: 90%;
+  }
+
+  .linkConctacto {
+    font-size: 16px;
+  }
+
+  .contenedor-img3D {
+    height: 200px;
+  }
+
+  .img-d {
+    width: 100%;
+    height: auto;
+  }
+
+  .contenedor-aplicaciones,
+  .contenedor-aplicaciones2 {
+    width: 100%;
+    gap: 10px 10px;
+  }
+
+  .contenedorSobremi {
+    flex-direction: column;
+    height: auto;
+    gap: 10px 0;
+  }
+
+  .contenedorHistoriaMichael {
+    width: 90%;
+  }
+
+  .contenedorModal {
+    height: auto;
+    max-width: 90%;
+  }
+
+  .contenrdorInfopParaContacto-hijo {
+    width: 90%;
+    padding: 0px 20px;
+  }
+
+  .contenedorRedeSociales {
+    gap: 20px;
+    font-size: 30px;
+  }
 }
