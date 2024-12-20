@@ -9,6 +9,7 @@
     <script src="https://kit.fontawesome.com/d9077096de.js" crossorigin="anonymous"></script>
     <script type="module" src="https://unpkg.com/@google/model-viewer"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="./style/styles.css">
     <title>Document</title>
 </head>
@@ -25,11 +26,13 @@
             </div>
 
             <div class="menu">
-
                 <ul>
-                    <a id="contactoTema" class="linkConctacto" href="#">
-                        <li>Conctato</li>
-                    </a>
+                    <li>
+
+                        <a id="contactoTema" class="linkConctacto">
+                            Conctato
+                        </a>
+                    </li>
                 </ul>
             </div>
             <button id="btnDiaNoche"><i class="fa-solid fa-circle-half-stroke"></i></i></button>
@@ -51,7 +54,7 @@
                 </p>
             </span>
             <span class="imgmia">
-                <img src="./img/github.png" alt="">
+                <img src="./img/Captura-Photoroom.png" alt="">
             </span>
         </div>
 
@@ -93,6 +96,45 @@
         </div>
     </main>
 
+
+
+    <div id="model" class="modal">
+        <div class="contenedorModal">
+            <div class="contenedorTituloModal">
+                <span class="cerrar" id="cerrarModal"><i class="fa-solid fa-rectangle-xmark cerrecolor"></i></span>
+                <h4 class="FormularioText">Formulario De Conctato</h4>
+            </div>
+
+            <label for="">Nombre</label>
+            <input type="text" placeholder="Nombre" id="nombre">
+            <label for="">Email</label>
+            <input type="email" placeholder="Email" id="email">
+            <label for="">Telefono</label>
+            <input type="tel" placeholder="Telefono" id="telefono">
+            <textarea name="" id="" cols="30" rows="10">
+
+             </textarea>
+            <button id="enviarDato" class="BntEnviarMensaje">Enviado <i
+                    class="fa-solid fa-envelope-circle-check"></i></button>
+        </div>
+    </div>
+
+
+    <div class="contenrdorInfopParaContacto">
+        <div class="contenrdorInfopParaContacto-hijo">
+
+            <div class="contenedorCorreo">
+                <h2>  <i class="fa-solid fa-envelope" id="redesEmail"></i> senamichael827@gmail.com </h2>
+
+            </div>
+
+           <div class="contenedorRedeSociales">
+               <a  href=""><i class="fa-brands fa-tiktok redes"  id="redestikto"  ></i></a> 
+               <a  href=""><i class="fa-brands fa-instagram redes" id="redeinstagram"></i></a>
+               <a  href=""><i class="fa-brands fa-github redes"  id="redeGithub"></i></a>
+           </div>
+        </div>
+    </div>
 
     <footer class="Fondo" id="footerthema">
         <h4>&copy; Michael Sena Derrallodor FronEnd</h4>
